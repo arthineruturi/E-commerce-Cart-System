@@ -368,8 +368,7 @@ public class ECommerceCartSystem {
                                         cart.setDiscountStrategy(new BuyOneGetOneFreeDiscount());
                                     } else {
                                         System.out.println("No products eligible for Buy One Get One Free Discount.");
-                                        // Switch to Percentage Discount
-                                        cart.setDiscountStrategy(new PercentageDiscount(5));
+                                      
                                     }
                                     break;
 
